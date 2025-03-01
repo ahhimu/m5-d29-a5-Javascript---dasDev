@@ -2,7 +2,7 @@
 
 
 
-document.getElementById("btn-2").addEventListener("click",function(){
+document.getElementById("btn-6").addEventListener("click",function(){
 
     let completeTask = document.getElementById("complete-task");
     let convertedcompletetask = parseInt(completeTask .innerText);
@@ -15,21 +15,27 @@ document.getElementById("btn-2").addEventListener("click",function(){
     const formattedTime = now.toLocaleString(); 
 
 
-    alert("Second Done ");
+    alert("Sixth Done ");
     taskAssinged.innerText = convertedtaskAssinged - 1;
 
 
     completeTask.innerText = convertedcompletetask + 1;
-    const title = document.getElementById('card1-title').innerText;
-    document.getElementById('btn-2').disabled = true;
+    const title6 = document.getElementById('title6').innerText;
+    document.getElementById('btn-6').disabled = true;
     const container = document.getElementById('activity-container');
 
     const p = document.createElement("div");
     // p.style.padding="12px";
 
     p.innerHTML=`
-    You have Complete The <strong>${title2}</strong> at <strong>${formattedTime}</strong>.
+    You have Complete The <strong>${title6}</strong> at <strong>${formattedTime}</strong>.
     `;
     container.appendChild(p);
 
+    if(convertedtaskAssinged === 1){
+        alert("Congratulations")
+        console.log('nah');
+    }
+
 })
+
