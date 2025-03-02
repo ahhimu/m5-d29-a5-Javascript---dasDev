@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Post</title>
+        <!-- Added DaisyUI CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#F4F7FF]">
+
+
+    <main class="w-10/12 mx-auto pt-6">
+    <section>
+        <div class="navbar bg-white rounded-2xl">
+            <div class="flex-1 ">
+               <img class="pl-6" src="assets/logo.png" alt="">
+              <span class="text-3xl text-black ">Dev</span><span class="text-3xl font-semibold text-black">Board</span>
+            </div>
+
+            <!-- Right Side Related Work  Incrasseing Pragraph Related Work-->
+            <div class="flex-none gap-4">
+              <div>
+                <div class="btn btn-ghost btn-circle">
+                  <div class="indicator gap-2">
+                    <img src="assets/checkbox.png" alt="">
+                    <p id="complete-task" class="font-bold text-center text-lg text-black">24</p>
+                    <!-- <span class="badge badge-sm indicator-item">8</span> -->
+                  </div>
+                </div>
+              </div>                 
+                
+              <div class="">
+                <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                   <!-- Bg Changer Button -->  
+                  <div id="bg-changer" class="w-10 rounded-full">
+                    <img src="assets/theme-btn.png" alt="Tailwind CSS Navbar component" />
+                  </div>
+                </div>                   
+              </div>
+            </div>
+          </div>
+     </section>
+     <h1 class="text-center font-bold text-4xl mt-10">Blogs</h1>
+
+     <section>
+        <div class="collapse collapse-plus bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title font-semibold">How do I create an account?</div>
+            <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+          </div>
+          <div class="collapse collapse-plus bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title font-semibold">I forgot my password. What should I do?</div>
+            <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the instructions sent to your email.</div>
+          </div>
+          <div class="collapse collapse-plus bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title font-semibold">How do I update my profile information?</div>
+            <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+          </div>
+     </section>
+
+    </main>
+</body>
+</html>
