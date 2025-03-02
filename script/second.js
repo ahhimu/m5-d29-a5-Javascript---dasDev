@@ -25,7 +25,11 @@ document.getElementById("btn-2").addEventListener("click",function(){
     const container = document.getElementById('activity-container');
 
     const p = document.createElement("div");
-    // p.style.padding="12px";
+    p.style.padding = "12px";
+    p.style.backgroundColor = "#F4F7FF";
+    p.style.borderRadius = "8px";
+    p.style.margin = "10px 10px";
+    p.style.fontSize = "16px";
 
     p.innerHTML=`
     You have Complete The <strong>${title2}</strong> at <strong>${formattedTime}</strong>.
