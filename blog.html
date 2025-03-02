@@ -37,26 +37,82 @@
      <section>
         <div class="collapse collapse-plus bg-base-100 border border-base-300">
             <input type="radio" name="my-accordion-3" checked="checked" />
-            <div class="collapse-title font-semibold">How do I create an account?</div>
-            <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+            <div class="collapse-title font-bold">Question-1: What are the different ways to select an element in the DOM?</div>
+            <div class="collapse-content text-sm font-semibold ml-10 bg-[#F4F7FF] pt-4"><h1>There are 5 way to select an element in DOM</h1>
+          
+                <p>1.getElementById()</p>
+                <p>2.getElementsByTagName()</p>
+                <p>3.getElementsByClassName()</p>
+                <p>4.querySelector()</p>
+                <p>5.querySelectorAll()</p>
+         
+            <h1 class="text-sm">I Used to getElementById() and it's recomndad.</h1>
+            </div>
           </div>
+          
+          
           <div class="collapse collapse-plus bg-base-100 border border-base-300">
             <input type="radio" name="my-accordion-3" />
-            <div class="collapse-title font-semibold">I forgot my password. What should I do?</div>
-            <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow the instructions sent to your email.</div>
+
+            <div class="collapse-title font-semibold">Question-2: What is the difference between innerHTML, innerText, and textContent ?</div>
+            <div class="collapse-content text-sm bg-[#F4F7FF] pt-4 ml-10">
+                <!-- Click on "Forgot Password" on the login page and follow the instructions sent to your email. -->
+          
+
+                <p><strong>innerHTML:</strong> It is a javascript property. Which returns in all inner html elements like all comments . It can be changed inner html Elements and also support Bold,Italic,image,link etc. </p>
+                <p><strong>innerText:</strong> It ignored all tag in the element and returns visiuble text which one we also in browser. </p>
+                <p><strong>textContent:</strong> It's like as innerText but it's also return hidden code in html elements ignored all tag in the element and returns visiuble text which also hidden. </p>
+
           </div>
+
+
+
           <div class="collapse collapse-plus bg-base-100 border border-base-300">
             <input type="radio" name="my-accordion-3" />
-            <div class="collapse-title font-semibold">How do I update my profile information?</div>
-            <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+            <div class="collapse-title font-semibold">Question-3: What is event delegation in the DOM?</div>
+            <div class="collapse-content text-sm bg-[#F4F7FF] pt-4 ml-10">
+                <p><strong>event delegation:</strong> It's Javascript Technique. wheere we use an event on parent elements to handele there child elements. instead of adding an event listener to each child element individually, we place an event on a parent element to manage the behavior of all its children </p>
+
+            </div>
           </div>
+
+          <div class="collapse collapse-plus bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-3" />
+
+            <div class="collapse-title font-semibold">Question-4: What is event bubbling in the DOM?</div>
+            <div class="collapse-content text-sm bg-[#F4F7FF] pt-4 ml-10">
+                <p><strong>event bubbling :</strong> It's a Javascript Technique,where we can start from a child element and propagate the event through its parent, then to its parent's parent, and so on, all the way up to the root element in the document. </p>
+
+
+            </div>
+          </div>
+
+          <div class="collapse collapse-plus bg-base-100 border border-base-300">
+            <input type="radio" name="my-accordion-3" />
+
+            <div class="collapse-title font-semibold">Question-5: How do you create, add, and remove elements using JavaScript?</div>
+            <div class="collapse-content text-sm bg-[#F4F7FF] pt-4 ml-10">
+                <p><strong>create elements:</strong> We Can use <strong>document.createElements()</strong> methode in javascript to create a new elements. It's allowed to create any HTML Elements in the document.</p>
+                <br>
+                <p><strong>add:</strong> Where we created an elemetns in javascript then we add the elements in the documents using <strong>appendChild() or insertBefore() </strong> method in javascript. </p>
+                <br>
+                <p><strong>remove:</strong> we can use the <strong>removeChild()</strong> method or the <strong>remove()</strong> method.. </p>
+            
+            
+            
+            </div>
+          </div>
+
+
+
+          
      </section>
 
     </main>
 
 
 
-    <!-- <script src="script/blogpage.js"></script> -->
+
 
     <script src="script/back-to-desk.js"></script>
 </body>
