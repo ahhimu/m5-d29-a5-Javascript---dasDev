@@ -49,17 +49,5 @@ document.getElementById('btn-1').disabled = true
 })
 
 
-// Button 2 Related code 
 
-// document.getElementById("btn-2").addEventListener("click",function(){
-
-//     alert("Second Done ");
-//     taskAssinged.innerText = convertedtaskAssinged - 1;
-
-
-//     completeTask.innerText = convertedcompletetask + 1;
-// })
-
-
-// Heading Date related code 
 
