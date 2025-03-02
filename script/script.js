@@ -24,7 +24,7 @@ let convertedcompletetask = parseInt(completeTask .innerText);
 let taskAssinged = document.getElementById("assinged-task");
 let convertedtaskAssinged = parseInt(taskAssinged.innerText);
     
-    alert ("Hello Mango peopple");
+    alert ("Board Updated Successfully");
 
     taskAssinged.innerText = convertedtaskAssinged - 1;
 

@@ -15,7 +15,7 @@ document.getElementById("btn-3").addEventListener("click",function(){
     const formattedTime = now.toLocaleString(); 
 
 
-    alert("Third Done ");
+    alert("Board Updated Successfully ");
     taskAssinged.innerText = convertedtaskAssinged - 1;
 
 

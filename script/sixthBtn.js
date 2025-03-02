@@ -15,7 +15,7 @@ document.getElementById("btn-6").addEventListener("click",function(){
     const formattedTime = now.toLocaleString(); 
 
 
-    alert("Sixth Done ");
+    alert("Board Updated Successfully ");
     taskAssinged.innerText = convertedtaskAssinged - 1;
 
 
@@ -37,8 +37,8 @@ document.getElementById("btn-6").addEventListener("click",function(){
     container.appendChild(p);
 
     if(convertedtaskAssinged === 1){
-        alert("Congratulations")
-        console.log('nah');
+        alert("Congrats !!! You have completed all the current task.")
+        // console.log('nah');
     }
 
 })
