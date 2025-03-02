@@ -19,6 +19,11 @@ const now = new Date();
 const formattedTime = now.toLocaleString(); 
 
 document.getElementById('btn-1').addEventListener("click",function(){
+    let completeTask = document.getElementById("complete-task");
+let convertedcompletetask = parseInt(completeTask .innerText);
+let taskAssinged = document.getElementById("assinged-task");
+let convertedtaskAssinged = parseInt(taskAssinged.innerText);
+    
     alert ("Hello Mango peopple");
 
     taskAssinged.innerText = convertedtaskAssinged - 1;
@@ -54,3 +59,7 @@ document.getElementById('btn-1').disabled = true
 
 //     completeTask.innerText = convertedcompletetask + 1;
 // })
+
+
+// Heading Date related code 
+
